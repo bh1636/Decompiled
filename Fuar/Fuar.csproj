@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\DELL\OneDrive\Ramazan\FUARD\Fuar.exe-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9904AF40-56C0-4EDC-923E-5EFA7036CF7D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>Fuar</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <ApplicationVersion>1.1.39.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Fuar</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v11.2">
+      <HintPath>lib\DevExpress.BonusSkins.v11.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v11.2">
+      <HintPath>lib\DevExpress.Data.v11.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v11.2.Core">
+      <HintPath>lib\DevExpress.Printing.v11.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v11.2">
+      <HintPath>lib\DevExpress.Utils.v11.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v11.2">
+      <HintPath>lib\DevExpress.XtraBars.v11.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v11.2.UI">
+      <HintPath>lib\DevExpress.XtraCharts.v11.2.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v11.2">
+      <HintPath>lib\DevExpress.XtraEditors.v11.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v11.2">
+      <HintPath>lib\DevExpress.XtraGrid.v11.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraNavBar.v11.2">
+      <HintPath>lib\DevExpress.XtraNavBar.v11.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraPivotGrid.v11.2">
+      <HintPath>lib\DevExpress.XtraPivotGrid.v11.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v11.2">
+      <HintPath>lib\DevExpress.XtraPrinting.v11.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v11.2">
+      <HintPath>lib\DevExpress.XtraReports.v11.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraVerticalGrid.v11.2">
+      <HintPath>lib\DevExpress.XtraVerticalGrid.v11.2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AktAyarFrm.cs" />
+    <Compile Include="AktCariTrans.cs" />
+    <Compile Include="AktFrmCari.cs" />
+    <Compile Include="AktFrmFiyat.cs" />
+    <Compile Include="AktFrmIndirim.cs" />
+    <Compile Include="AktFrmStok.cs" />
+    <Compile Include="BirimFrm.cs" />
+    <Compile Include="BirimlerBrws.cs" />
+    <Compile Include="AktFrmStokExcel.cs" />
+    <Compile Include="ExcelFrm_Old.cs" />
+    <Compile Include="ExcelFrm.cs" />
+    <Compile Include="Form1.cs" />
+    <Compile Include="FuarBrws.cs" />
+    <Compile Include="FuarFrm.cs" />
+    <Compile Include="GrupBrws.cs" />
+    <Compile Include="GrupFrm.cs" />
+    <Compile Include="Hakkinda.cs" />
+    <Compile Include="IndirimBrws.cs" />
+    <Compile Include="KatilimciBrws.cs" />
+    <Compile Include="KatilimciFrm.cs" />
+    <Compile Include="KullaniciBrws.cs" />
+    <Compile Include="KullaniciFrm.cs" />
+    <Compile Include="Kurlar.cs" />
+    <Compile Include="MainMenu.cs" />
+    <Compile Include="MalzemeBrws.cs" />
+    <Compile Include="MalzemeFrm.cs" />
+    <Compile Include="MalzemeSel.cs" />
+    <Compile Include="MusteriBrws.cs" />
+    <Compile Include="MusteriFrm.cs" />
+    <Compile Include="MusteriSel.cs" />
+    <Compile Include="OdaSel.cs" />
+    <Compile Include="OtelBrws.cs" />
+    <Compile Include="OtelFrm.cs" />
+    <Compile Include="ParametreFrm.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Raporlar.cs" />
+    <Compile Include="RaporlarGrafik.cs" />
+    <Compile Include="RaporlarPivot.cs" />
+    <Compile Include="RaporTanim.cs" />
+    <Compile Include="RaporTanimlariBrws.cs" />
+    <Compile Include="ResetPass.cs" />
+    <Compile Include="siparis.cs" />
+    <Compile Include="SiparisFrm.cs" />
+    <Compile Include="SiparisBrws.cs" />
+    <Compile Include="SiparisFrmSimple.cs" />
+    <Compile Include="SiparisRapor.cs" />
+    <Compile Include="SplashScreen1.cs" />
+    <Compile Include="TedarikciFrm.cs" />
+    <Compile Include="TedarikcilerBrws.cs" />
+    <Compile Include="TedarikcilerSel.cs" />
+    <Compile Include="TurBrws.cs" />
+    <Compile Include="TurFrm.cs" />
+    <Compile Include="UlasimBrws.cs" />
+    <Compile Include="UlasimFrm.cs" />
+    <Compile Include="WaitForm1.cs" />
+    <Compile Include="YetkilerFrm.cs" />
+    <Compile Include="_main.cs" />
+    <Compile Include="siparisTableAdapters\SIPARISLERAdapter.cs" />
+    <Compile Include="Properties\Resources.cs" />
+    <Compile Include="Properties\Settings.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AktAyarFrm.resx" />
+    <EmbeddedResource Include="AktCariTrans.resx" />
+    <EmbeddedResource Include="AktFrmCari.resx" />
+    <EmbeddedResource Include="AktFrmFiyat.resx" />
+    <EmbeddedResource Include="AktFrmIndirim.resx" />
+    <EmbeddedResource Include="AktFrmStok.resx" />
+    <EmbeddedResource Include="AktFrmStokExcel.resx" />
+    <EmbeddedResource Include="BirimFrm.resx" />
+    <EmbeddedResource Include="BirimlerBrws.resx" />
+    <EmbeddedResource Include="ExcelFrm.resx" />
+    <EmbeddedResource Include="ExcelFrm_Old.resx" />
+    <EmbeddedResource Include="exe.licenses" />
+    <EmbeddedResource Include="Form1.resx" />
+    <EmbeddedResource Include="FuarBrws.resx" />
+    <EmbeddedResource Include="FuarFrm.resx" />
+    <EmbeddedResource Include="GrupBrws.resx" />
+    <EmbeddedResource Include="GrupFrm.resx" />
+    <EmbeddedResource Include="Hakkinda.resx" />
+    <EmbeddedResource Include="IndirimBrws.resx" />
+    <EmbeddedResource Include="KatilimciBrws.resx" />
+    <EmbeddedResource Include="KatilimciFrm.resx" />
+    <EmbeddedResource Include="KullaniciBrws.resx" />
+    <EmbeddedResource Include="KullaniciFrm.resx" />
+    <EmbeddedResource Include="Kurlar.resx" />
+    <EmbeddedResource Include="MainMenu.resx" />
+    <EmbeddedResource Include="MalzemeBrws.resx" />
+    <EmbeddedResource Include="MalzemeFrm.resx" />
+    <EmbeddedResource Include="MalzemeSel.resx" />
+    <EmbeddedResource Include="MusteriBrws.resx" />
+    <EmbeddedResource Include="MusteriFrm.resx" />
+    <EmbeddedResource Include="MusteriSel.resx" />
+    <EmbeddedResource Include="OdaSel.resx" />
+    <EmbeddedResource Include="OtelBrws.resx" />
+    <EmbeddedResource Include="OtelFrm.resx" />
+    <EmbeddedResource Include="ParametreFrm.resx" />
+    <EmbeddedResource Include="Properties\Resources.resx" />
+    <EmbeddedResource Include="Raporlar.resx" />
+    <EmbeddedResource Include="RaporlarGrafik.resx" />
+    <EmbeddedResource Include="RaporlarPivot.resx" />
+    <EmbeddedResource Include="RaporTanim.resx" />
+    <EmbeddedResource Include="RaporTanimlariBrws.resx" />
+    <EmbeddedResource Include="ResetPass.resx" />
+    <EmbeddedResource Include="SiparisBrws.resx" />
+    <EmbeddedResource Include="SiparisFrm.resx" />
+    <EmbeddedResource Include="SiparisFrmSimple.resx" />
+    <EmbeddedResource Include="SiparisRapor.resx" />
+    <EmbeddedResource Include="SplashScreen1.resx" />
+    <EmbeddedResource Include="TedarikciFrm.resx" />
+    <EmbeddedResource Include="TedarikcilerBrws.resx" />
+    <EmbeddedResource Include="TedarikcilerSel.resx" />
+    <EmbeddedResource Include="TurBrws.resx" />
+    <EmbeddedResource Include="TurFrm.resx" />
+    <EmbeddedResource Include="UlasimBrws.resx" />
+    <EmbeddedResource Include="UlasimFrm.resx" />
+    <EmbeddedResource Include="WaitForm1.resx" />
+    <EmbeddedResource Include="YetkilerFrm.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\DELL\OneDrive\Ramazan\NRS FUAR\SIPARIS YONETIM\Yönetim.exe-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{09E4EEF2-2767-45BF-AED3-87C2EC7DF17D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>Yönetim</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Yönetim</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v12.1">
+      <HintPath>lib\DevExpress.Data.v12.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v12.1">
+      <HintPath>lib\DevExpress.Utils.v12.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v12.1">
+      <HintPath>lib\DevExpress.XtraEditors.v12.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v12.1">
+      <HintPath>lib\DevExpress.XtraGrid.v12.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v12.1">
+      <HintPath>lib\DevExpress.XtraReports.v12.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Logo_Evrak_Cevirici\AboutBox1.cs" />
+    <Compile Include="DBManager.cs" />
+    <Compile Include="frmBarkod.cs" />
+    <Compile Include="frmCariRehber.cs" />
+    <Compile Include="frmExport.cs" />
+    <Compile Include="frmlObjectAktarim.cs" />
+    <Compile Include="frmLogoSiparisKayit.cs" />
+    <Compile Include="frmCariHesapRaporu.cs" />
+    <Compile Include="frmLogoVerial.cs" />
+    <Compile Include="frmMikroSiparisKayit.cs" />
+    <Compile Include="frmMikroVeriAl.cs" />
+    <Compile Include="frmPromosyon.cs" />
+    <Compile Include="frmSifre.cs" />
+    <Compile Include="frmSiparis.cs" />
+    <Compile Include="frmSiparisListesi.cs" />
+    <Compile Include="frmStokFiyatGuncelle.cs" />
+    <Compile Include="frmStokKart.cs" />
+    <Compile Include="frmAnaMain.cs" />
+    <Compile Include="frmStokRehber.cs" />
+    <Compile Include="frmStokSiparisDagilimi.cs" />
+    <Compile Include="frmTerminalKurulum.cs" />
+    <Compile Include="frmTopluDegistiklik.cs" />
+    <Compile Include="frmYazdirmaKuyruk.cs" />
+    <Compile Include="frmYedeklemeVeSilme.cs" />
+    <Compile Include="frmYeniStokKart.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="XtraReport1.cs" />
+    <Compile Include="rapi.cs" />
+    <Compile Include="Properties\Resources.cs" />
+    <Compile Include="Properties\Settings.cs" />
+    <Compile Include="Oto_Tahakkut\TurkishLocalizer.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="exe.licenses" />
+    <EmbeddedResource Include="frmAnaMain.resx" />
+    <EmbeddedResource Include="frmBarkod.resx" />
+    <EmbeddedResource Include="frmCariHesapRaporu.resx" />
+    <EmbeddedResource Include="frmCariRehber.resx" />
+    <EmbeddedResource Include="frmExport.resx" />
+    <EmbeddedResource Include="frmlObjectAktarim.resx" />
+    <EmbeddedResource Include="frmLogoSiparisKayit.resx" />
+    <EmbeddedResource Include="frmLogoVerial.resx" />
+    <EmbeddedResource Include="frmMikroSiparisKayit.resx" />
+    <EmbeddedResource Include="frmMikroVeriAl.resx" />
+    <EmbeddedResource Include="frmPromosyon.resx" />
+    <EmbeddedResource Include="frmSifre.resx" />
+    <EmbeddedResource Include="frmSiparis.resx" />
+    <EmbeddedResource Include="frmSiparisListesi.resx" />
+    <EmbeddedResource Include="frmStokFiyatGuncelle.resx" />
+    <EmbeddedResource Include="frmStokKart.resx" />
+    <EmbeddedResource Include="frmStokRehber.resx" />
+    <EmbeddedResource Include="frmStokSiparisDagilimi.resx" />
+    <EmbeddedResource Include="frmTerminalKurulum.resx" />
+    <EmbeddedResource Include="frmTopluDegistiklik.resx" />
+    <EmbeddedResource Include="frmYazdirmaKuyruk.resx" />
+    <EmbeddedResource Include="frmYedeklemeVeSilme.resx" />
+    <EmbeddedResource Include="frmYeniStokKart.resx" />
+    <EmbeddedResource Include="Logo_Evrak_Cevirici\AboutBox1.resx" />
+    <EmbeddedResource Include="Properties\Resources.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
