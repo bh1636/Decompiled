@@ -5,7 +5,7 @@
             "name": "Debug Fuar",
             "type": "clr",
             "request": "launch",
-            "program": "${workspaceFolder}/Fuar/bin/Debug/Fuar.exe",
+            "program": "C:\\Users\\DELL\\Desktop\\helva Local\\Decompiled\\Fuar\\Fuar.csproj",
             "args": [],
             "cwd": "${workspaceFolder}/Fuar",
             "console": "internalConsole",
