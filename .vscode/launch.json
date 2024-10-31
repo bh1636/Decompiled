@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Fuar",
+            "type": "clr",
+            "request": "launch",
+            "program": "${workspaceFolder}/Fuar/bin/Debug/Fuar.exe",
+            "args": [],
+            "cwd": "${workspaceFolder}/Fuar",
+            "console": "internalConsole",
+            "stopAtEntry": false,
+            "justMyCode": true,
+            "enableStepFiltering": true
+        }
+    ]
+}
